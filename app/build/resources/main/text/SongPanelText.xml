@@ -1,0 +1,15 @@
+<text>
+    <like>♥</like>
+    <unlike>♡</unlike>
+    <menuIcon>⋯</menuIcon>
+    <addSong>Add to Playlist</addSong>
+    <songDetails>Song Details</songDetails>
+    <defaultSongHeight>40</defaultSongHeight>
+    <viewArtist>View Artist</viewArtist>
+    <emptyBorderSize>5</emptyBorderSize>
+    <matteBorderSize>1</matteBorderSize>
+    <panelInfoSpacing>10</panelInfoSpacing>
+    <heartSize>18f</heartSize>
+    <upButton>↑</upButton>
+    <downButton>↓</downButton>
+</text>

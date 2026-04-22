@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <!-- Navigation Links to Your Pages -->
+  <div class="navigation-links">
+    <ul>
+      <li><a href="{{ '/vision' | relative_url }}">Vision Statement</a></li>
+      <li><a href="{{ '/features' | relative_url }}">Features & Demo</a></li>
+      <li><a href="{{ '/setup' | relative_url }}">Download & Setup</a></li>
+      <li><a href="{{ '/postmortem' | relative_url }}">Postmortem</a></li>
+    </ul>
+  </div>
+
+  <!-- Team Cards Section -->
+  <div class="team-cards">
+    <div class="team-card">
+      <h3>Member 1</h3>
+      <p>Frontend Developer</p>
+    </div>
+    <div class="team-card">
+      <h3>Member 2</h3>
+      <p>Backend Developer</p>
+    </div>
+    <div class="team-card">
+      <h3>Member 3</h3>
+      <p>Tester & QA</p>
+    </div>
+  </div>
+</div>

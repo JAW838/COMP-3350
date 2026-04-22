@@ -1,0 +1,7 @@
+<text>
+    <windowName>Remove Songs</windowName>
+    <removeButtonName>Remove Selected Song</removeButtonName>
+    <confirmMessageStart>Remove '</confirmMessageStart>
+    <confirmMessageEnd>' from playlist?</confirmMessageEnd>
+    <confirmButtonName>Confirm Removal</confirmButtonName>
+</text>

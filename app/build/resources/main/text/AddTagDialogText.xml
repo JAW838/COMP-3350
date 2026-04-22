@@ -1,0 +1,6 @@
+<text>
+    <windowName>Add Tag</windowName>
+    <addButton>Add</addButton>
+    <addMessageStart>Added </addMessageStart>
+    <addMessageEnd> to song</addMessageEnd>
+</text>

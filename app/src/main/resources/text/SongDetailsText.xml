@@ -1,0 +1,18 @@
+<text>
+    <windowName>Song Details</windowName>
+    <title-info>Title: </title-info>
+    <artist-info>Artist: </artist-info>
+    <genre-info>Genre: </genre-info>
+    <runtime-info>Runtime: </runtime-info>
+    <notePanelName>Notes</notePanelName>
+    <tagPanelName>Tags</tagPanelName>
+    <closeButton>Close</closeButton>
+    <saveButton>Save</saveButton>
+    <editButton>Edit</editButton>
+    <htmlFormatOpen>&lt;html&gt;&lt;body style='width: 350px;'&gt;</htmlFormatOpen>
+    <htmlFormatClose>&lt;/body&gt;&lt;/html&gt;</htmlFormatClose>
+    <noNote>No note provided.</noNote>
+    <tagButton>⋯</tagButton>
+    <addTag>Add Tag</addTag>
+    <removeTag>Remove Tag</removeTag>
+</text>
