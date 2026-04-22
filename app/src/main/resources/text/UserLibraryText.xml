@@ -1,0 +1,8 @@
+<text>
+    <windowName>User Library</windowName>
+    <songPanel>Liked Songs</songPanel>
+    <playlistPanel>Saved Playlists</playlistPanel>
+    <albumPanel>Liked Albums</albumPanel>
+    <createPlaylist>➕ Create Playlist</createPlaylist>
+    <font>SansSerif</font>
+</text>

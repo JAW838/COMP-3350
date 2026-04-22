@@ -1,0 +1,13 @@
+<text>
+    <windowName>Error</windowName>
+    <collectionMissing>Collection not found.</collectionMissing>
+    <collectionDuplicate>Collection already exists.</collectionDuplicate>
+    <emptyPlaylistName>Playlist name cannot be empty.</emptyPlaylistName>
+    <songMissing>Song not found.</songMissing>
+    <songInPlaylist>Song already in playlist.</songInPlaylist>
+    <songInAlbum>Song already in album.</songInAlbum>
+    <songDuplicate>Song already in playlist.</songDuplicate>
+    <platformTagDuplicate>Tag already exists.</platformTagDuplicate>
+    <songTagDuplicate>Song already has this tag.</songTagDuplicate>
+    <emptyTagName>Tag name cannot be empty.</emptyTagName>
+</text>

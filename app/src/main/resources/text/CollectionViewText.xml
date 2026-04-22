@@ -1,0 +1,5 @@
+<text>
+    <panelFont>SansSerif</panelFont>
+    <songsName>Songs</songsName>
+    <loadError>Unable to load songs: </loadError>
+</text>

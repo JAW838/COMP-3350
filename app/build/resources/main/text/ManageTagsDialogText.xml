@@ -1,0 +1,9 @@
+<texts>
+    <window-name>Manage Tags</window-name>
+    <removeButton>Remove</removeButton>
+    <createButton>Create New Tag</createButton>
+    <removeConfirmMessageStart>Remove tag "</removeConfirmMessageStart>
+    <removeConfirmMessageEnd>"?</removeConfirmMessageEnd>
+    <removeConfirmName>Confirm Tag Removal</removeConfirmName>
+    <createTagMessage>Enter a new tag name</createTagMessage>
+</texts>

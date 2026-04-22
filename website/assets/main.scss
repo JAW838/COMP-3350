@@ -1,0 +1,164 @@
+---
+---
+@import "minima";
+
+/* Dark Retro Theme Overrides */
+
+/* General Body */
+body {
+  background-color: #121212;  /* dark background */
+  color: #c0c0c0;             /* light grey text */
+  font-family: 'Courier New', Courier, monospace; /* retro monospace vibe */
+  line-height: 1.6;
+}
+
+/* Links - bright electric blue with subtle glow */
+a {
+  color: #3399ff;
+  text-decoration: none;
+  border-bottom: 1px dotted #3399ff;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px #3399ff66;
+}
+
+a:hover, a:focus {
+  color: #66b2ff;
+  border-bottom: 1px solid #66b2ff;
+  text-shadow: 0 0 10px #66b2ffaa;
+  background-color: #001f3f;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Navigation */
+.navigation-links {
+  margin: 20px 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: #3399ff;
+    border-bottom: 1px dotted transparent;
+  }
+
+  a:hover {
+    border-bottom-color: #66b2ff;
+  }
+}
+
+/* Team Cards Container */
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #222233 0%, #111122 100%);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow:
+          0 0 10px #3399ff55,
+          inset 0 0 20px #001a66;
+}
+
+/* Individual Team Card */
+.team-card {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #3399ff;
+  border-radius: 12px;
+  background: #1a1a2e;
+  box-shadow:
+          4px 4px 0 #003366,    /* pixel-style shadow */
+          inset 0 0 10px #3399ff44;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+          6px 6px 0 #0055cc,
+          inset 0 0 20px #66b2ffaa;
+}
+
+/* Headings inside cards */
+.team-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #66b2ff;
+  text-shadow: 0 0 8px #3399ffcc;
+}
+
+/* Paragraph text inside cards */
+.team-card p {
+  font-size: 1rem;
+  color: #a0a0a0;
+  line-height: 1.4;
+}
+
+/* Optional: Retro style horizontal rule */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #3399ff, #66b2ff, #3399ff);
+  margin: 20px 0;
+  border-radius: 1px;
+  box-shadow: 0 0 5px #3399ff88;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #66b2ff;
+  text-shadow: 0 0 5px #3399ff99;
+}
+header, .site-header, nav {
+  background-color: #111122 !important;
+  color: white !important;
+}
+
+header a, .site-header a, nav a {
+  color: white !important;
+  text-shadow: 0 0 5px #66b2ffcc;
+}
+
+header a:hover, .site-header a:hover, nav a:hover {
+  color: #66b2ff !important;
+  text-shadow: 0 0 10px #3399ffcc;
+}
+
+
+
+
+/* Footer or other background areas */
+footer, header {
+  background-color: #111122;
+  border-top: 1px solid #3399ff33;
+  padding: 10px 0;
+  color: #888;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+/* Code blocks or preformatted text */
+pre, code {
+  background-color: #222244;
+  color: #99ccff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  box-shadow: inset 0 0 5px #3399ff55;
+}

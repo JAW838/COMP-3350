@@ -1,0 +1,6 @@
+<text>
+    <windowName>Create Playlist</windowName>
+    <promptText>Enter playlist name:</promptText>
+    <confirmButton>Confirm</confirmButton>
+    <cancelButton>Cancel</cancelButton>
+</text>

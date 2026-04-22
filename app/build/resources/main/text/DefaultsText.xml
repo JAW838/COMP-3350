@@ -1,0 +1,10 @@
+<text>
+    <defaultFont>SansSerif</defaultFont>
+    <mainWindowWidth>900</mainWindowWidth>
+    <mainWindowHeight>700</mainWindowHeight>
+    <defaultDialogWidth>600</defaultDialogWidth>
+    <defaultDialogHeight>500</defaultDialogHeight>
+    <smallDialogWidth>300</smallDialogWidth>
+    <smallDialogHeight>250</smallDialogHeight>
+    <panelBackgroundKey>Panel.background</panelBackgroundKey>
+</text>
